@@ -1,0 +1,17 @@
+{
+  "name": "app/ksef-service",
+  "description": "Microservice for KSeF integration using Slim 4",
+  "type": "project",
+  "require": {
+    "php": "^8.2",
+    "guzzlehttp/guzzle": "^7.9",
+    "n1ebieski/ksef-php-client": "^0.33",
+    "slim/slim": "^4.14",
+    "slim/psr7": "^1.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}
