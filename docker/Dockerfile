@@ -1,5 +1,5 @@
 FROM php:8.2-cli
-
+LABEL org.opencontainers.image.source=https://github.com/seba11/ksef-service
 WORKDIR /app
 
 RUN apt-get update \
